@@ -1,0 +1,16 @@
+{
+  "name": "workspaces-example-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^2.11.0"
+  },
+  "scripts": {
+    "build": "lerna run build"
+  }
+}
